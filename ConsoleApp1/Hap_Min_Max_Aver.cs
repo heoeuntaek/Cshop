@@ -20,10 +20,40 @@ namespace ConsoleApp1
             
             for(int i = 0; i < su.Length; i++)
             {
+                hap+=su[i];
+            }
+            //합
+            //    최대
+            //    최소
+            //    평균
+            max = su[0];
 
+            for(int i=1; i <su.Length; i++)
+            {
+                if (max < su[i])
+                {
+                    max = su[i];
+                }
             }
 
-            
+            min = su[0];
+            for(int i=1; i < su.Length; i++)
+            {
+                if(min > su[i])
+                {
+                    min = su[i];
+                }
+            }
+
+            ave = hap / su.Length;
+
+            Console.WriteLine("Hap ="+hap);
+            Console.WriteLine("min =" + min);
+            Console.WriteLine("max =" + max);
+            Console.WriteLine("ave =" + ave);
+
+
+
 
         }
     }
