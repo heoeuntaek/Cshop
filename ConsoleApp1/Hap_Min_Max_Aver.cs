@@ -52,6 +52,11 @@ namespace ConsoleApp1
             Console.WriteLine("max =" + max);
             Console.WriteLine("ave =" + ave);
 
+            
+            Console.WriteLine("ave =" + ave);
+            Console.WriteLine("ave =" + ave);
+            Console.WriteLine("ave =" + ave);
+            
 
 
 
