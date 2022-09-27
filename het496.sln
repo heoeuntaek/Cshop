@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{7F0488C8-9BDF-4D13-8C97-897920422497}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{9659F38F-5393-40C4-8B1A-C0C2D921EC10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F0488C8-9BDF-4D13-8C97-897920422497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0488C8-9BDF-4D13-8C97-897920422497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0488C8-9BDF-4D13-8C97-897920422497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0488C8-9BDF-4D13-8C97-897920422497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D4FBE0F-DF47-4007-A6B1-B9F201D73AC3}
+	EndGlobalSection
+EndGlobal
