@@ -1,16 +1,18 @@
 ﻿//using System;
 //using System.Collections.Generic;
+//using System.ComponentModel.DataAnnotations;
 //using System.Linq;
-//using System.Runtime.ExceptionServices;
 //using System.Text;
 //using System.Threading.Tasks;
 
 //namespace ConsoleApp1
 //{
-//    internal class max
+//    internal class Class1
 //    {
+
 //        static void Main(string[] args)
 //        {
+
 //            Console.WriteLine("하나의 수 입력");
 //            String a = Console.ReadLine();
 //            int first = Convert.ToInt32(a);
@@ -23,31 +25,19 @@
 //            String c = Console.ReadLine();
 //            int third = Convert.ToInt32(c);
 
-            
-//            int max = first;
-//            if (max < second)
-//            {
-//                max = second;
-//            }
-            
-//            if (max < third)
-//            {
-//                max = third;
-//            }
+//            int max;
+//            int min;
 
-//            int min = first;
-//            if(min > second)
-//            {
-//                min= second;
-//            }
-//            if (min > third)
-//            {
-//                min = third;
-//            }
+//            max = first < second ? second : first;
+//            max = second<third ? third : second;
 
-//            Console.WriteLine("max = " + max +"\n"+ "min = " + min);
 
+//            min = first < second ? first: second;
+//            min = second<third ? second : third;
+
+//            Console.WriteLine("max = " + max + "\n" + "min = " + min);
 
 //        }
+
 //    }
 //}

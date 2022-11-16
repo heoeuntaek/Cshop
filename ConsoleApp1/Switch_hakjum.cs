@@ -10,14 +10,14 @@
 //    {
 //        static void Main(string[] args)
 //        {
-            
+
 
 //            while (true)
 //            {
 //                Console.WriteLine("점수 입력 :");
-//                int number= Convert.ToInt32(Console.ReadLine());                          
-               
-//                String a =Input.methode(number);
+//                int number = Convert.ToInt32(Console.ReadLine());
+
+//                String a = Input.methode(number);
 //                Console.WriteLine(a);
 //            }
 //        }
@@ -27,9 +27,9 @@
 //    {
 //        public static string methode(int a)
 //        {
-//            a = a / 10;
             
-//            switch (a)
+
+//            switch (a / 10)
 //            {
 //                case 10:
 //                case 9:

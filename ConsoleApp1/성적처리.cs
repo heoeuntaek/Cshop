@@ -15,23 +15,23 @@
 
 //            Console.WriteLine("학번    이름    국어    영어    수학    총점    평균    석차");
 //            Console.WriteLine("--------------------------------------------------------");
-//            int[,] jumsu = new int[4, 7] 
+//            int[,] jumsu = new int[4, 7]
 //            {{1,33,44,57,0,0,1},
 //            { 2,77,88,99,0,0,1 },
 //            { 3,55,66,77,0,0,1},
 //            {4,66,77,88,0,0,1 }};
 
 
-//            int sumA =0;
-//            int sumB =0;
-//            int sumC =0;
-//            int sumD =0;
+//            int sumA = 0;
+//            int sumB = 0;
+//            int sumC = 0;
+//            int sumD = 0;
 
-            
+
 
 //            for (int i = 1; i < 4; i++)
 //            {
-//                sumA += jumsu[0,i];
+//                sumA += jumsu[0, i];
 //                sumB += jumsu[1, i];
 //                sumC += jumsu[2, i];
 //                sumD += jumsu[3, i];
@@ -42,9 +42,9 @@
 //            jumsu[2, 4] = sumC;
 //            jumsu[3, 4] = sumD;
 
-//            jumsu[0, 5] = sumA/3;
-//            jumsu[1, 5] = sumB/3;
-//            jumsu[2, 5] = sumC/3;
+//            jumsu[0, 5] = sumA / 3;
+//            jumsu[1, 5] = sumB / 3;
+//            jumsu[2, 5] = sumC / 3;
 //            jumsu[3, 5] = sumD / 3;
 
 
@@ -52,24 +52,69 @@
 
 //            for (int i = 0; i < 4; i++)
 //            {
-//                for(int j = 0; j < 4; j++)
+//                for (int j = 0; j < 4; j++)
 //                {
-//                    if(jumsu[i,5]< jumsu[j, 5])
+//                    if (jumsu[i, 5] < jumsu[j, 5])
 //                    {
 //                        jumsu[i, 6]++;
 //                    }
 //                }
 
 //            }
-//            for (int i=0; i<jumsu.Length; i++)
+//            for (int i = 0; i < 4; i++)
 //            {
-//                for (int j=0; j < 7; j++)
+//                for (int j = 0; j < 7; j++)
 //                {
 //                    if (j == 1)
 //                    {
-//                        Console.Write(name[i]+"\t");
+
+//                        Console.Write(name[i] + "\t");
 //                    }
-//                    Console.Write(jumsu[i, j]+"\t");
+//                    Console.Write(jumsu[i, j] + "\t");
+//                }
+//                Console.WriteLine();
+//            }
+
+//            Console.WriteLine("1.6 : " + jumsu[0, 6]);
+//            Console.WriteLine("길이 :" + jumsu.Length);
+//            Console.WriteLine("길이 :" + jumsu.GetLength(0));
+
+//            int temp;
+//            string tempname;
+//            for (int i = 0; i < 4; i++)
+//            {
+//                for (int j = i + 1; j < 4; j++)
+//                {
+//                    if (jumsu[i, 6] > jumsu[j, 6])
+//                    {
+//                        for (int k = 0; k < 7; k++)
+//                        {
+//                            //점수교환
+//                            temp = jumsu[i, k];
+//                            jumsu[i, k] = jumsu[j, k];
+//                            jumsu[j, k] = temp;
+
+//                        }
+
+//                        //이름교환
+//                        tempname = name[i];
+//                        name[i] = name[j];
+//                        name[j] = tempname;
+
+//                    }
+//                }
+//            }
+
+//            for (int i = 0; i < 4; i++)
+//            {
+//                for (int j = 0; j < 7; j++)
+//                {
+//                    if (j == 1)
+//                    {
+
+//                        Console.Write(name[i] + "\t");
+//                    }
+//                    Console.Write(jumsu[i, j] + "\t");
 //                }
 //                Console.WriteLine();
 //            }
