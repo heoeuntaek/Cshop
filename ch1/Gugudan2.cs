@@ -4,7 +4,7 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace ConsoleApp1
+//namespace ch1
 //{
 //    internal class Gugudan
 //    {

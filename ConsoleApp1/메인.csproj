@@ -20,4 +20,9 @@
     <None Remove="4\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\9_exception\ch9_exception,thread.csproj" />
+    <ProjectReference Include="..\생성자, class고급\생성자, class고급.csproj" />
+  </ItemGroup>
+
 </Project>
