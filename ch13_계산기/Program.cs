@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace ch13_계산기
 {
     internal static class Program
     {
@@ -16,15 +16,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MainForm());
-            //Application.Run(new 과제1());
-
-            //Application.Run(new 사칙());
-            //Application.Run(new 로그인());
-            Application.Run(new 주민과제());
-
-
-
+            Application.Run(new 은택계산기());
         }
     }
 }

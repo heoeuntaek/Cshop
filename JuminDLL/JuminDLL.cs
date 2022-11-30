@@ -5,7 +5,8 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace JuminDLL
+
 {
     public class JuminDLL
     {
@@ -25,7 +26,7 @@ namespace ConsoleApp1
             Console.WriteLine($"당신이 태어난 월은 {Calculator.Month(jumin)}");
             Console.WriteLine($"당신이 태어난 일은 {Calculator.Day(jumin)}");
             Console.WriteLine($"당신의 나이는 {Calculator.Age(jumin)}");
-            Console.WriteLine($"당신이 성별은 {Calculator.Type(jumin)}");
+            Console.WriteLine($"당신이 성별은 {Calculator.sex(jumin)}");
 
         }
 
@@ -61,7 +62,7 @@ namespace ConsoleApp1
 
             }
 
-            public static string Type(int jumin)
+            public static string sex(int jumin)
             {
                 string a = Convert.ToString(jumin);
                 a = a.Substring(6, 1);

@@ -17,7 +17,7 @@ namespace 허은택_가위바위보
             Random random = new Random();
             int comput_number = random.Next(1, 3);
 
-            string result = 허은택_가위바위보DLL.check(mynumber, comput_number);
+            string result = 가위바위보DLL.check(mynumber, comput_number);
             Console.WriteLine($"컴의 선택은 {comput_number}");
             Console.WriteLine($"나의 선택은 {mynumber}");
             Console.WriteLine($"결과 = {result} ");

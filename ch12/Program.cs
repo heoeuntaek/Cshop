@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace ch12
 {
     internal static class Program
     {
@@ -16,14 +16,12 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MainForm());
-            //Application.Run(new 과제1());
-
-            //Application.Run(new 사칙());
-            //Application.Run(new 로그인());
-            Application.Run(new 주민과제());
-
-
+            //Application.Run(new 체크박스연습());
+            //Application.Run(new CheckListBox());
+            //Application.Run(new FrmRadio());
+            //Application.Run(new FrmCombo());
+            //Application.Run(new ArrayRadio());
+            Application.Run(new 시험문제());
 
         }
     }

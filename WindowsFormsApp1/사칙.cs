@@ -12,10 +12,10 @@ using Operation;
 
 namespace WindowsFormsApp1
 {
-    public partial class 사칙연산 : Form
+    public partial class 사칙 : Form
     {
         
-        public 사칙연산()
+        public 사칙()
         {
             InitializeComponent();
         }

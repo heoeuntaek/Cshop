@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{077E1759-5E03-4975-98C5-EB154658DBE1}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>생성자__class고급</RootNamespace>
-    <AssemblyName>생성자, class고급</AssemblyName>
+    <ProjectGuid>{C3BB4ED2-25A8-497B-A996-15FD9AE2BBCC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JuminDLL2</RootNamespace>
+    <AssemblyName>JuminDLL2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,17 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Area_Calc_OP.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="JuminDLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proverty_test1.cs" />
-    <Compile Include="Proverty_test최고단계.cs" />
-    <Compile Include="디폴트생성자.cs" />
-    <Compile Include="생성자.cs" />
-    <Compile Include="속성2.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

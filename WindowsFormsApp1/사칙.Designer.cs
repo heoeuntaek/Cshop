@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class 사칙연산
+    partial class 사칙
     {
         /// <summary>
         /// Required designer variable.

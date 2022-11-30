@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Area_Calc_OP\Area_Calc_OP.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="Operation">
       <HintPath>..\..\..\..\OneDrive - inu.ac.kr\대학\4-2\윈프\operation (1)\Operation.dll</HintPath>
     </Reference>

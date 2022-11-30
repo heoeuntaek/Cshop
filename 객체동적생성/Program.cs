@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace 객체동적생성
 {
     internal static class Program
     {
@@ -16,15 +16,8 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MainForm());
-            //Application.Run(new 과제1());
-
-            //Application.Run(new 사칙());
-            //Application.Run(new 로그인());
-            Application.Run(new 주민과제());
-
-
-
+            Application.Run(new 랜덤시험문제());
+            //Application.Run(new 객체동적생성());
         }
     }
 }

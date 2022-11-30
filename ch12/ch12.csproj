@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8FF7AEC-E077-436B-B41F-3FE56CC25E48}</ProjectGuid>
+    <ProjectGuid>{2BB7E27A-51A9-4506-98A3-560881CF6B59}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <RootNamespace>ch12</RootNamespace>
+    <AssemblyName>ch12</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,14 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JuminDLL2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\JuminDLL2\bin\Debug\JuminDLL2.dll</HintPath>
-    </Reference>
-    <Reference Include="OperationDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\OperationDLL\bin\Debug\OperationDLL.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,38 +46,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="로그인.cs">
+    <Compile Include="ArrayRadio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="로그인.Designer.cs">
-      <DependentUpon>로그인.cs</DependentUpon>
+    <Compile Include="ArrayRadio.Designer.cs">
+      <DependentUpon>ArrayRadio.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="과제1.cs">
+    <Compile Include="CheckBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="과제1.Designer.cs">
-      <DependentUpon>과제1.cs</DependentUpon>
+    <Compile Include="CheckBox.Designer.cs">
+      <DependentUpon>CheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckListBox.Designer.cs">
+      <DependentUpon>CheckListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCombo.Designer.cs">
+      <DependentUpon>FrmCombo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="사칙.cs">
+    <Compile Include="RadioButton.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="사칙.Designer.cs">
-      <DependentUpon>사칙.cs</DependentUpon>
+    <Compile Include="RadioButton.Designer.cs">
+      <DependentUpon>RadioButton.cs</DependentUpon>
     </Compile>
-    <Compile Include="주민과제.cs">
+    <Compile Include="R_B_과제.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="주민과제.Designer.cs">
-      <DependentUpon>주민과제.cs</DependentUpon>
+    <Compile Include="R_B_과제.Designer.cs">
+      <DependentUpon>R_B_과제.cs</DependentUpon>
     </Compile>
+    <Compile Include="시험문제.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="시험문제.Designer.cs">
+      <DependentUpon>시험문제.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ArrayRadio.resx">
+      <DependentUpon>ArrayRadio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckBox.resx">
+      <DependentUpon>CheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckListBox.resx">
+      <DependentUpon>CheckListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCombo.resx">
+      <DependentUpon>FrmCombo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -95,17 +111,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="과제1.resx">
-      <DependentUpon>과제1.cs</DependentUpon>
+    <EmbeddedResource Include="RadioButton.resx">
+      <DependentUpon>RadioButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="로그인.resx">
-      <DependentUpon>로그인.cs</DependentUpon>
+    <EmbeddedResource Include="R_B_과제.resx">
+      <DependentUpon>R_B_과제.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="사칙.resx">
-      <DependentUpon>사칙.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="주민과제.resx">
-      <DependentUpon>주민과제.cs</DependentUpon>
+    <EmbeddedResource Include="시험문제.resx">
+      <DependentUpon>시험문제.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
